@@ -1,0 +1,23 @@
+@import url("../../../style.css");
+
+
+.posts__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+/*mediaqueries*/
+@media screen and (max-width: 800px){
+  .posts__container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .posts__container{
+    grid-template-columns: 1fr;
+  }
+}
+

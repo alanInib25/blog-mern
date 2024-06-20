@@ -1,0 +1,20 @@
+@import url("../../../style.css");
+
+.edit-post{
+  width: var(--form-width);
+  margin-inline: auto;
+  height: calc(100vh - 12rem);
+  display: grid;
+  place-items: center;
+}
+
+.edit-post h2{
+  margin-bottom: 2rem;
+}
+
+/*react-quill*/
+.ql-editor{
+  overflow: hidden;
+  background: var(--color-white);
+  height: 10rem !important;
+}

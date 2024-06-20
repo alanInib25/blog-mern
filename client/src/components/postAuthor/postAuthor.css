@@ -1,0 +1,29 @@
+@import url("../../../style.css");
+
+.post__author{
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.post__author-avatar{
+  width: 3rem;
+  aspect-ratio: 1/1;
+  border-radius: var(--radius-2);
+  overflow: hidden;
+
+}
+
+.post__author-avatar img{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.post__author-avatar .avatar{
+  height: auto !important;
+  width: auto !important;
+  padding: .1rem !important;
+  text-align: center !important;
+}
